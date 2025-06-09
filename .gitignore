@@ -45,3 +45,10 @@ output/*.json
 # OS
 .DS_Store
 Thumbs.db .env
+# Ignore local environment setup
+.env
+venv/
+__pycache__/
+*.pyc
+output/
+
